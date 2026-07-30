@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BRUTALISM — Estúdio de Design Gráfico e Edição de Vídeo. Design cru, brutal e sem compromissos.">
+    <meta name="keywords" content="design gráfico, edição de vídeo, brutalismo, brutalist design, design brutal">
+    <meta name="author" content="Brutalism">
+    <meta property="og:title" content="BRUTALISM — Design Gráfico & Edição de Vídeo">
+    <meta property="og:description" content="Design cru, brutal e sem compromissos. Criamos identidades visuais que não pedem licença.">
+    <meta property="og:type" content="website">
+    <title>BRUTALISM — Design Gráfico & Edição de Vídeo</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- ========== LOADING SCREEN ========== -->
+    <div class="loader-screen" id="loader">
+        <div class="loader-counter" id="loader-counter">000</div>
+    </div>
+
+    <!-- ========== CUSTOM CURSOR ========== -->
+    <div class="cursor-dot" id="cursor-dot"></div>
+
+    <!-- ========== VERTICAL SIDE TEXT ========== -->
+    <div class="side-text side-text-left">BRUTALISM™ DESIGN STUDIO — 2025</div>
+    <div class="side-text side-text-right">DESIGN GRÁFICO • EDIÇÃO DE VÍDEO</div>
+
+    <!-- ========== NAVIGATION ========== -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">BRUTALISM</a>
+            <div class="menu-toggle" id="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">Manifesto</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#trabalhos" class="nav-link">Trabalhos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ========== HERO SECTION ========== -->
+    <section id="hero" class="hero-section">
+        <div class="hero-noise"></div>
+        <div class="hero-grid-lines"></div>
+        <div class="hero-content">
+            <img src="assets/logo.png" alt="BRUTALISM Logo" class="hero-logo">
+            <h1 class="hero-title glitch" data-text="BRUTALISM">BRUTALISM</h1>
+            <p class="hero-subtitle">Design Gráfico • Edição de Vídeo</p>
+        </div>
+        <div class="hero-scroll">
+            <span class="scroll-arrow"></span>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE TICKER ========== -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>DESIGN GRÁFICO</span>
+                <span>EDIÇÃO DE VÍDEO</span>
+                <span>IDENTIDADE VISUAL</span>
+                <span>MOTION GRAPHICS</span>
+                <span>BRANDING</span>
+                <span>DIREÇÃO DE ARTE</span>
+                <span>COLOR GRADING</span>
+                <span>SOCIAL MEDIA</span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span>DESIGN GRÁFICO</span>
+                <span>EDIÇÃO DE VÍDEO</span>
+                <span>IDENTIDADE VISUAL</span>
+                <span>MOTION GRAPHICS</span>
+                <span>BRANDING</span>
+                <span>DIREÇÃO DE ARTE</span>
+                <span>COLOR GRADING</span>
+                <span>SOCIAL MEDIA</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT / MANIFESTO ========== -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-number">01</div>
+                <h2 class="section-title">Manifesto</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-text reveal">
+                    <p>Nós não pedimos licença. Não seguimos tendências. Nós as quebramos. 
+                    A Brutalism nasceu da convicção de que o design não precisa ser bonito 
+                    para ser poderoso — ele precisa ser <strong>real</strong>.</p>
+                    <p>Enquanto o mercado suaviza as bordas e arredonda os cantos, nós 
+                    mantemos tudo cru. Cada pixel tem propósito. Cada escolha é deliberada. 
+                    Cada projeto é uma declaração.</p>
+                    <p>Somos um estúdio de design gráfico e edição de vídeo que acredita 
+                    no impacto bruto da comunicação visual. Sem filtros. Sem compromissos. 
+                    Sem desculpas.</p>
+                </div>
+                <div class="about-stats reveal reveal-delay-2">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Projetos Entregues</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="30">0</div>
+                        <div class="stat-label">Clientes Ativos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Comprometimento</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="0">0</div>
+                        <div class="stat-label">Bordas Arredondadas</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== MARQUEE 2 ========== -->
+    <section class="marquee-section marquee-reverse">
+        <div class="marquee-track marquee-track-reverse">
+            <div class="marquee-content">
+                <span>SEM FILTROS</span>
+                <span>SEM COMPROMISSOS</span>
+                <span>SEM DESCULPAS</span>
+                <span>DESIGN CRU</span>
+                <span>IMPACTO BRUTAL</span>
+                <span>SEM FILTROS</span>
+                <span>SEM COMPROMISSOS</span>
+                <span>SEM DESCULPAS</span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span>SEM FILTROS</span>
+                <span>SEM COMPROMISSOS</span>
+                <span>SEM DESCULPAS</span>
+                <span>DESIGN CRU</span>
+                <span>IMPACTO BRUTAL</span>
+                <span>SEM FILTROS</span>
+                <span>SEM COMPROMISSOS</span>
+                <span>SEM DESCULPAS</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="servicos" class="section section-dark">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-number">02</div>
+                <h2 class="section-title">Serviços</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card reveal">
+                    <div class="service-icon">◼</div>
+                    <h3 class="service-title">Design Gráfico</h3>
+                    <div class="service-description">Criamos identidades visuais que gritam. 
+                    Logos, branding, materiais impressos e digitais que não passam 
+                    despercebidos. Design com personalidade bruta e intenção clara.</div>
+                    <div class="service-tags">
+                        <span class="tag">Identidade Visual</span>
+                        <span class="tag">Branding</span>
+                        <span class="tag">Direção de Arte</span>
+                        <span class="tag">Social Media</span>
+                        <span class="tag">Impressos</span>
+                        <span class="tag">Embalagens</span>
+                    </div>
+                </div>
+                <div class="service-card reveal reveal-delay-2">
+                    <div class="service-icon">▶</div>
+                    <h3 class="service-title">Edição de Vídeo</h3>
+                    <div class="service-description">Vídeos que prendem, cortam e impactam. 
+                    Edição cinematográfica, motion graphics e color grading que transformam 
+                    footage bruto em narrativa visual poderosa.</div>
+                    <div class="service-tags">
+                        <span class="tag">Edição</span>
+                        <span class="tag">Motion Graphics</span>
+                        <span class="tag">Color Grading</span>
+                        <span class="tag">Vídeo Institucional</span>
+                        <span class="tag">Reels</span>
+                        <span class="tag">VFX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <section id="trabalhos" class="section">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-number">03</div>
+                <h2 class="section-title">Trabalhos</h2>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item reveal" data-category="design">
+                    <img src="assets/projeto1.jpg" alt="Projeto REVOLT — Poster Design" loading="lazy">
+                    <div class="portfolio-expand">⛶</div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Design Gráfico</span>
+                        <h3 class="portfolio-title">REVOLT — Poster Series</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal reveal-delay-1" data-category="design">
+                    <img src="assets/projeto2.jpg" alt="Identidade Visual — Brand Design" loading="lazy">
+                    <div class="portfolio-expand">⛶</div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Branding</span>
+                        <h3 class="portfolio-title">Brand Identity System</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal reveal-delay-2" data-category="video">
+                    <img src="assets/projeto3.jpg" alt="Cinematic Video Edit" loading="lazy">
+                    <div class="portfolio-expand">⛶</div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Edição de Vídeo</span>
+                        <h3 class="portfolio-title">Nightfall — Short Film</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal reveal-delay-1" data-category="design">
+                    <img src="assets/projeto4.jpg" alt="Editorial Design" loading="lazy">
+                    <div class="portfolio-expand">⛶</div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Design Editorial</span>
+                        <h3 class="portfolio-title">VANGUARD Magazine</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal reveal-delay-2" data-category="design">
+                    <img src="assets/projeto5.jpg" alt="Social Media Campaign" loading="lazy">
+                    <div class="portfolio-expand">⛶</div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Social Media</span>
+                        <h3 class="portfolio-title">Anti-Design Campaign</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item reveal reveal-delay-3" data-category="design">
+                    <img src="assets/projeto6.jpg" alt="Event Poster Design" loading="lazy">
+                    <div class="portfolio-expand">⛶</div>
+                    <div class="portfolio-overlay">
+                        <span class="portfolio-category">Design Gráfico</span>
+                        <h3 class="portfolio-title">Underground — Event Series</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== LIGHTBOX MODAL ========== -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close" id="lightbox-close">✕</button>
+        <button class="lightbox-nav lightbox-prev" id="lightbox-prev">←</button>
+        <button class="lightbox-nav lightbox-next" id="lightbox-next">→</button>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="">
+        <div class="lightbox-info">
+            <span class="portfolio-category" id="lightbox-category"></span>
+            <h3 class="portfolio-title" id="lightbox-title"></h3>
+        </div>
+    </div>
+
+    <!-- ========== MARQUEE 3 ========== -->
+    <section class="marquee-section">
+        <div class="marquee-track">
+            <div class="marquee-content">
+                <span>VAMOS CRIAR ALGO BRUTAL</span>
+                <span>ENTRE EM CONTATO</span>
+                <span>VAMOS CRIAR ALGO BRUTAL</span>
+                <span>ENTRE EM CONTATO</span>
+                <span>VAMOS CRIAR ALGO BRUTAL</span>
+                <span>ENTRE EM CONTATO</span>
+            </div>
+            <div class="marquee-content" aria-hidden="true">
+                <span>VAMOS CRIAR ALGO BRUTAL</span>
+                <span>ENTRE EM CONTATO</span>
+                <span>VAMOS CRIAR ALGO BRUTAL</span>
+                <span>ENTRE EM CONTATO</span>
+                <span>VAMOS CRIAR ALGO BRUTAL</span>
+                <span>ENTRE EM CONTATO</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contato" class="section section-dark">
+        <div class="section-container">
+            <div class="section-header reveal">
+                <div class="section-number">04</div>
+                <h2 class="section-title">Contato</h2>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <h3 class="contact-headline">
+                        VAMOS CRIAR<br>
+                        ALGO <span class="red">BRUTAL.</span>
+                    </h3>
+                    <ul class="contact-details">
+                        <li class="contact-item">
+                            <span class="contact-item-icon">☎</span>
+                            <a href="tel:+5588988094809">(88) 98809-4809</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-item-icon">✉</span>
+                            <a href="mailto:ismobrutal@gmail.com">ismobrutal@gmail.com</a>
+                        </li>
+                        <li class="contact-item">
+                            <span class="contact-item-icon">◉</span>
+                            <a href="https://instagram.com/brutalism0.art" target="_blank" rel="noopener noreferrer">@brutalism0.art</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form-wrapper reveal reveal-delay-2">
+                    <form id="contact-form" class="contact-form" novalidate>
+                        <div class="form-group">
+                            <label for="contact-name">Nome</label>
+                            <input type="text" id="contact-name" name="name" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-email">Email</label>
+                            <input type="email" id="contact-email" name="email" placeholder="seu@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-message">Mensagem</label>
+                            <textarea id="contact-message" name="message" placeholder="Conte sobre seu projeto..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn" id="submit-btn">ENVIAR MENSAGEM →</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">BRUTALISM™</div>
+            <div class="footer-links">
+                <a href="https://instagram.com/brutalism0.art" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="mailto:ismobrutal@gmail.com">Email</a>
+                <a href="tel:+5588988094809">Telefone</a>
+            </div>
+        </div>
+        <div class="footer-copy">
+            © 2025 BRUTALISM. TODOS OS DIREITOS RESERVADOS. DESIGN SEM COMPROMISSOS.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
